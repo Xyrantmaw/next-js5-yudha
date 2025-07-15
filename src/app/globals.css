@@ -15,6 +15,12 @@
   src: url('/fonts/Transcity.ttf') format('truetype');
 }
 
+@font-face {
+  font-family:'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+
 .font-marck-script {
   font-family: 'MarckScript', sans-serif;
 }
