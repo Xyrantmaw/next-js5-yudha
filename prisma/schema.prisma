@@ -1,0 +1,20 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // atau "postgresql", "mysql", dll tergantung database kamu
+  url      = "file:./dev.db"
+}
+
+model FantasyCharacter {
+  id      Int    @id @default(autoincrement())
+  name    String
+  race    String
+  role    String
+  element String
+  gender  String
+  createdAt DateTime @default(now())
+}

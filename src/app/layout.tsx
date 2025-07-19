@@ -35,9 +35,13 @@ export default function RootLayout({
           </Link>
           <Link
           href="/"
-          className="fixed top-6 left-6 z-50 bg-black text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-800 transition"
-        >
+          className="fixed top-6 left-6 z-50 bg-black text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-800 transition">
           Home
+        </Link>
+        <Link
+          href="/party"
+          className="fixed top-6 left-25 z-50 bg-black text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-800 transition">
+          Party
         </Link>
         </div>
         {children}
